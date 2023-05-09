@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo List</title>
+</head>
+
+<body>
+  <!-- Danh sách -->
+  <ul>
+    <li>Giới thiệu</li>
+    <li>Kết Nối</li>
+    <li>Tải ứng dụng</li>
+  </ul>
+  <ul>
+    <li>Đăng ký</li>
+    <li>Đăng nhập</li>
+  </ul>
+  <!-- Nội dung 1 -->
+  <section>
+    <h2>Sidebar 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi rem obcaecati accusantium quam ea cum voluptatem
+      eum ipsam nihil quia dolorum quod exercitationem impedit illum, illo cupiditate soluta laudantium delectus!</p>
+  </section>
+  <!-- Bảng dữ liệu Table -->
+  <!-- cellpadding căn nội dung với các cột -->
+  <!-- cellspacing căn nội dung 2 cột, 2 hàng -->
+  <table border="1" cellpadding="10" cellspacing="3">
+    <!-- Thẻ tiêu đề caption  -->
+    <caption align="top">NHANVIEN</caption>
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>NAME</th>
+        <th>GENDER</th>
+        <th>OLD</th>
+        <th>ADD</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>DUKE</td>
+        <td>Male</td>
+        <td>20</td>
+        <td>JAPAN</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <!-- rowspan nhóm cột  -->
+        <td rowspan="2">HA</td>
+        <!-- colspan nhóm hàng  -->
+        <td colspan="2">FMale</td>
+        <!-- <td>18</td> -->
+        <td>VIETNAM</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <!-- <td>NGUYEN</td> -->
+        <td>Male</td>
+        <td>21</td>
+        <td>VIETNAM</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Footer</td>
+        <td colspan="4">Đã nhóm 4 ô trong hàng</td>
+        <!-- <td></td>
+        <td></td>
+        <td></td> -->
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <hr>
+  <table border="1" cellpadding="10" cellspacing="3">
+    <caption align="top"> Tiêu đề bảng</caption>
+    <thead>
+      <tr>
+        <th>Cột 1</th>
+        <th>Cột 2</th>
+        <th>Cột 3</th>
+        <th>Cột 4</th>
+        <th>Cột 5</th>
+        <th>Cột 6</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">Cột 1</td>
+        <td>Cột 2</td>
+        <td>Cột 3</td>
+        <td>Cột 4</td>
+        <td>Cột 5</td>
+        <td>Cột 6</td>
+      </tr>
+      <tr>
+        <!-- <td>Cột 1</td> -->
+        <td>Cột 2</td>
+        <td>Cột 3</td>
+        <td>Cột 4</td>
+        <td>Cột 5</td>
+        <td>Cột 6</td>
+      </tr>
+      <tr>
+        <!-- <td>Cột 1</td>
+        <td>Cột 2</td>
+        <td>Cột 3</td>
+        <td>Cột 4</td> -->
+        <td colspan="5">Cột 5</td>
+        <td>Cột 6</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <hr>
+  <!-- Biểu mẫu form, gửi dữ liệu lên server-->
+  <!-- method phương thức đẩy dữ liệu -->
+  <!-- enctype dữ liệu giử dạng -->
+  <form action="ss1_demo.html" method="GET">
+    <div>
+      <label for="user">Username: </label>
+      <input type="text" id="user" name="user">
+    </div>
+    <!-- Ctrl + D focus vào những keyword giống nhau -->
+    <div>
+      <label for="password">Password: </label>
+      <input type=" password" id="password" name="password">
+    </div>
+    <div>
+      <label for="color">Color: </label>
+      <input type="color" id="color" name="color">
+    </div>
+    <div>
+      <label for="checkbox">Checkbox: </label>
+      <input type="checkbox" id="checkbox" name="checkbox">
+    </div>
+    <div>
+      <label for="gender">Gender </label>
+      <input type="radio" id="nam" name="gender" value="1"> <label for="nam">Nam</label>
+      <input type="radio" id="nu" name="gender" value="0"> <label for="nu">Nu</label>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+
+</body>
+
+</html>

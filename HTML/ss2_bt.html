@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <caption align="top">QUẢN LÝ SINH VIÊN</caption>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Họ và tên</th>
+        <th>Điểm</th>
+        <th>Xếp loại</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="4">Khóa A</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Trần Tiến Tài</td>
+        <td>7</td>
+        <td rowspan="2">Khá</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Phạm mạnh khoa</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td colspan="4">Khóa B</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Trần Tiến Tài</td>
+        <td>5</td>
+        <td>Trung bình</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Phạm mạnh khoa</td>
+        <td>10</td>
+        <td>Giỏi</td>
+      </tr>
+      <tr>
+        <th colspan="2">TỔNG CỘNG</th>
+        <th>7.5</th>
+        <th>KHÁ</th>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+      <tr>
+        <th colspan="2">ĐĂNG KÝ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><label for="fullname">Full Name</label></td>
+        <td><input type="text" id="fullname" name="fullname"></td>
+      </tr>
+      <tr>
+        <td><label for="username">Username</label></td>
+        <td><input type="text" id="username" name="username"></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="text" id="password" name="password"></td>
+      </tr>
+      <tr>
+        <td><label for="repassword">Nhập lại Password</label></td>
+        <td><input type="text" id="repassword" name="repassword"></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender</label></td>
+        <td><input type="radio" id="gender" name="gender" value="1"> <label>Nam</label>
+          <input type="radio" id="gender" name="gender" value="0"> <label>Nữ</label>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="daybirth">Ngày sinh</label></td>
+        <td><input type="date" id="daybirth" name="daybirth"></td>
+      </tr>
+      <tr>
+        <td><label for="add">Địa chỉ</label></td>
+        <td><textarea name="add" id="add"></textarea></td>
+      </tr>
+      <tr>
+        <td><label for="avatar">Avatar</label></td>
+        <td><input type="file" name="avatar" id="avatar"></td>
+      </tr>
+      <tr>
+        <td><label for="sothich">Sở thích</label></td>
+        <td><input type="checkbox"> <label>Xem phim</label>
+          <input type="checkbox"> <label>Thể thao</label>
+          <input type="checkbox"> <label>Web</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button type="reset">Reset</button>
+          <button type="submit">OK</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
