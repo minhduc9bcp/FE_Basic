@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      padding: 45px;
+      background-color: #f1f1f1;
+    }
+
+    .container h1 {
+      text-align: center;
+    }
+
+    .container .form-group {
+      padding: 20px 0 20px 20px;
+      margin-top: 10px;
+      background-color: white;
+      box-shadow: 2px 2px rgba(0, 0, 0, 0.162);
+    }
+
+    .form-group .group-item label {
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+
+    }
+
+    .form-group input,
+    textarea {
+      width: 100%;
+    }
+
+    .form-group .btn {
+      margin-top: 15px;
+      padding: 10px;
+      color: white;
+      background-color: black;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tuyển dụng</h1>
+    <div class="form-group">
+      <div class="group-item">
+        <label>Họ và tên:</label>
+        <input type="text">
+      </div>
+      <div class="group-item">
+        <label>Email:</label>
+        <input type="email">
+      </div>
+      <div class="group-item">
+        <label>Số điện thoại:</label>
+        <input type="tel">
+      </div>
+      <div class="group-item">
+        <label>CV:</label>
+        <input type="file">
+      </div>
+      <div class="group-item">
+        <label>Tin nhắn:</label>
+        <textarea></textarea>
+      </div>
+      <button class="btn">Gửi</button>
+    </div>
+  </div>
+
+</body>
+
+</html>

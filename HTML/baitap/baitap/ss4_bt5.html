@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      padding: 20px 30px;
+    }
+
+    .container .form {
+      background-color: #f1f1f1;
+      padding: 25px 30px;
+    }
+
+    .form .title {
+      text-align: center;
+    }
+
+    .form .group-input {
+      margin-top: 15px;
+      background-color: rgba(248, 198, 70, 0.454);
+      padding: 15px 0 15px 30px;
+    }
+
+    .group-input .form-item label {
+      display: block;
+      width: 100%;
+      margin-top: 15px;
+    }
+
+    .group-input .form-item input {
+      border: none;
+      width: 100%;
+      background-color: #f1f1f1;
+    }
+
+    .form .btn {
+      padding: 10px 15px;
+      margin-top: 15px;
+      background-color: rgba(19, 88, 208, 0.765);
+      color: aliceblue;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form action="" class="form">
+      <div>
+        <h2 class="title">Đăng ký tài khoản</h2>
+        <div class="group-input">
+          <div class="form-item">
+            <label>Họ và tên:</label>
+            <input type="text">
+          </div>
+          <div class="form-item">
+            <label>Email:</label>
+            <input type="text">
+          </div>
+          <div class="form-item">
+            <label>Mật khẩu:</label>
+            <input type="text">
+          </div>
+          <div class="form-item">
+            <label>Xác nhận mật khẩu:</label>
+            <input type="text">
+          </div>
+          <button class="btn">Đăng ký</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>
